@@ -1,0 +1,112 @@
+.account-container{
+  flex: 1;
+  background-color: #15161a;
+  border-radius: 20px;
+  margin-right: 15px;
+  border: 0.5px solid #363638;
+  height: 100%;
+}
+
+.account-container-section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+    border-bottom: 0.5px solid #363638;
+
+}
+
+.profile-iimage{
+    font-size: 28px;
+    color: #58595d;
+}
+
+.profile-heading{
+    color: #b0b0b0;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.password-chnage-container{
+    margin: 20px;
+    width: 400px;
+    background-color:  #171719;;
+    
+    border-radius: 15px;
+    border: 1px solid #363638;
+}
+
+.setting-container{
+    padding: 20px;
+    margin-top: 0px;
+    border-bottom: 0.5px solid #363638;
+    padding-bottom: 0px;
+
+}
+
+.setting-ele{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #c4bcbc;
+}
+
+.setting-para{
+    font-size: 14px;
+    color: #686868;
+}
+
+.password-reset-containaer{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.side{
+    color: #686868;
+    font-size: 14px;
+
+}
+
+.email{
+    background-color: #131416;
+    height: 28px;
+    border: 0.5px solid #363638;
+    color: #363638;
+    padding-top: 6px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.side{
+
+}
+
+.input-password{
+
+background-color: #131416;
+    width: 347px;
+    height: 28px;
+    border: 0.5px solid #363638;
+    color: #4e4f4f;
+    padding-left: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.button-con{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.reset-button{
+    height: 34px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #b0b0b0;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+
+}

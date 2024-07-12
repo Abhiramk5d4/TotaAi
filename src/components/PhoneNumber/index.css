@@ -1,0 +1,85 @@
+.assistants-container {
+  display: flex;
+  flex: 1;
+  background-color: #15161a;
+  border-radius: 20px;
+  margin-right: 15px;
+  border: 0.5px solid #363638;
+  height: 100%;
+}
+
+.create-phone-container{
+  height: 100%;
+  width: 40%;
+  border-right: 0.5px solid #363638;
+  text-align: center;
+
+}
+.buttons-container{
+  border-bottom: 0.5px solid #363638;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.button-phone{
+  width: 130px;
+  height: 40px;
+  background-color: #212328;
+  border: 0.5px solid #363638;
+  border-radius: 10px;
+  color: #b0b0b0;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.create-assistant-button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.create-assistant-button:hover {
+  background-color: #555;
+}
+
+.no-assistants {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.no-assistants-icon {
+  width: 50px;
+  height: 50px;
+  
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+.no-assistants h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.no-assistants p {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.number-text{
+  color: #ae8e00;
+  font-style: italic;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 15px;
+}
