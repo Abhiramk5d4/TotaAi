@@ -1,0 +1,170 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 80%;
+  color: #b0b0b0;
+  height:  90%;
+  overflow: auto;
+  padding-top: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #363638;
+  padding-bottom: 10px;
+}
+
+.main-heading{
+  color: aliceblue;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: #b0b0b0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-body {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.chosse-a-template-container{
+  border-bottom: 1px solid #363638;
+  margin-bottom: 20px;
+
+}
+
+.choose-heading{
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.choose-para{
+  font-size: 14px;
+}
+
+.label-assistant-name {
+  display: block;
+  margin: 22px 0 14px;
+  font-size: 18px;
+  color: aliceblue;
+  
+}
+
+.span-element{
+  color: #c09e17;
+  font-size: 14px;
+}
+
+.input-create-assistant-model {
+  width: 96%;
+  height: 30px;
+  font-size: 16px;
+  padding: 10px;
+  color: aliceblue;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #363638;
+  background-color: #131314;
+  outline: none;
+}
+
+.template-options {
+  margin-top: 10px;
+}
+
+.template-option {
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #363638;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+.options-heading{
+  font-size: 17px;
+  color: aliceblue;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.options-para{
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.quickstart-option {
+  background: #2a2a2a;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #363638;
+}
+
+
+.quick-staet-heading{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+
+.quickstart-options {
+  border: 1px solid #363638;
+  background-color: #131314;
+  padding: 20px;
+  padding-top: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.quickstart-option h4 {
+  margin: 0;
+}
+
+.quickstart-option{
+  cursor: pointer;
+}
+
+.button-container{
+  text-align: right;
+  margin-top: 20px;
+}
+
+.create-ass-button{
+  height: 38px;
+  width: 140px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #23afad;
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.active-assistant{
+  background-color: #23afad35;
+}

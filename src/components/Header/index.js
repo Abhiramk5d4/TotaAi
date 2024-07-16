@@ -8,7 +8,7 @@ function Header() {
     <div className="header">
       <Link className="nav-link" to="/">
         <div className="logo">
-          <img className="img-logo" src="https://res.cloudinary.com/haibegwvw/image/upload/v1720773345/totaai-logo2_we0vqz.png"/>
+          <img className="img-logo" src="https://res.cloudinary.com/haibegwvw/image/upload/v1721118589/totaai-logo2_2_umt6qo.png"/>
           <h1 className="logo-name">TotaAi</h1>
         </div>
       </Link>
