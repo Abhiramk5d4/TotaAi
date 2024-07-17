@@ -1,0 +1,120 @@
+.container {
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #212121;
+    border-radius: 8px;
+    color: #b0bec5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 24px;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .section-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .example {
+    font-size: 14px;
+    color: #90a4ae;
+    background-color: #333;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 0.5px solid #363638;
+    color: white;
+    background-color: #0d0c0c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: #90a4ae;
+  }
+
+
+
+  .upload-section, .guardrails-section, .dynamic-context-section {
+    margin-bottom: 24px;
+
+  }
+  
+  .upload-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #90a4ae;
+  }
+  
+  .upload-button:hover {
+    background-color: #1f201f;
+  }
+  
+  .upload-description {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .upload-description a {
+    color: #64b5f6;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .section-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .checkbox-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .timezone {
+    padding: 8px;
+    background-color: #333;
+    border-radius: 4px;
+  }
+  
+  .timezone-label {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  
+  .timezone-value {
+    font-size: 16px;
+    color: #64b5f6;
+  }

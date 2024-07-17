@@ -6,7 +6,7 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   z-index: 1000;
 }
@@ -18,7 +18,7 @@
   width: 500px;
   max-width: 80%;
   color: #b0b0b0;
-  height:  90%;
+  height:  50%;
   overflow: auto;
   padding-top: 10px;
 }
@@ -141,12 +141,21 @@
   border-radius: 10px;
 }
 
+.detail-quick-start-container{
+  display: flex;
+}
+
 .quickstart-option h4 {
   margin: 0;
 }
 
 .quickstart-option{
   cursor: pointer;
+  width: 187px;
+  height: 150px;
+  overflow: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .button-container{
