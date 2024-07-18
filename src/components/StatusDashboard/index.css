@@ -100,15 +100,13 @@
   }
 
   .tabs-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #080808;
     padding: 20px;
     width: 36%;
     padding-bottom: 0px;
     padding-right: 0px;
     border-radius: 10px;
+    height: 430px;
   }
   .tabs-detail-container{
     display: flex;
@@ -124,11 +122,15 @@
     margin-bottom: 20px;
     margin-right: 20px;
     background-color: #232425;
-    
+    margin-top: 14px;
     font-weight: 600;
   }
   
 
   .active-tab-item{
-    background-color: #48517cc7;
+    background-color: #404a79ae;
+  }
+
+
+  .pie-chart-container{
   }
