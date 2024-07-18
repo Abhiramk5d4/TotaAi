@@ -96,7 +96,7 @@ clickProfile = () => {
               <Link className="nav-link" to="/squads">
                 <li className={`sidebar-item ${activeTabID==="Squads" ? "active hover" : ""}`} onClick={this.clickSquads}>
                   <FaUsers />
-                  <span>Squads</span>
+                  <span>Team</span>
                 </li>
                </Link>
             </ul>

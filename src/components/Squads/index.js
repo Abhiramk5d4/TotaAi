@@ -6,13 +6,13 @@ function Squads() {
     <div className="assistants-container">
       <div className="create-assistant-container">
       <div className="squads-container">
-        <button className="button-assistant hover">New Squads  +</button>
+        <button className="button-assistant hover">New Team  +</button>
         </div>
       </div>
       <div className="no-assistants">
-        <h2>No Squads Found
+        <h2>No Team Found
         </h2>
-        <p>Create a new squad.</p>
+        <p>Create a new Team.</p>
       </div>
     </div>
   );

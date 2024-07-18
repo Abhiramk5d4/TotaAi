@@ -11,15 +11,15 @@
   }
 
   .model-heading{
-        font-size: 20px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        color: aliceblue;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: aliceblue;
   }
 
   .para-model{
-        font-size: 14px;
-        margin-top: 5px;
+    font-size: 14px;
+    margin-top: 5px;
   }
   
   .publish-button, .delete-button {

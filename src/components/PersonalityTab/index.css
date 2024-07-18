@@ -2,7 +2,7 @@
     padding: 16px;
     max-width: 600px;
     margin: 0 auto;
-    background-color: #212121;
+    background-color: #0d0c0c;
     border-radius: 8px;
     color: #b0bec5;
     font-family: Arial, sans-serif;
@@ -42,7 +42,13 @@
   .upload-button:hover {
     background-color: #2e7d32;
   }
-  
+  .avatar-image{
+    color: #0d0c0c;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
   .avatar-options {
     display: flex;
     justify-content: space-between;
@@ -68,4 +74,77 @@
         margin-top: 20px;
         margin-bottom: 0px;
         color: aliceblue;
+  }
+
+
+
+
+  .settings-container {
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #212121;
+    border-radius: 8px;
+    color: #b0bec5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 24px;
+  }
+  
+  .section-heading {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .section-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .greeting-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #b0bec5;
+    background-color: #0a0a0a;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    resize: none;
+  }
+  
+  .character-count {
+    font-size: 12px;
+    color: #b0bec5;
+  }
+  
+  .behavior-option {
+    padding: 12px;
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .behavior-option:hover {
+    background-color: #444;
+  }
+  
+  .option-heading {
+    font-size: 16px;
+    color: #64b5f6;
+    margin-bottom: 4px;
+  }
+  
+  .option-description {
+    font-size: 14px;
+    color: #b0bec5;
+  }
+
+  .section-heading{
+    font-size: 20px;
   }

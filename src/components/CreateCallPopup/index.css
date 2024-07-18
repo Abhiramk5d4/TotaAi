@@ -1,0 +1,128 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 1000;
+    margin: 20px;
+  }
+  
+  .popup-container {
+    background-color: #121212;
+    padding: 24px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .popup-header {
+    margin-bottom: 24px;
+
+  }
+  
+  .logo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .title {
+    font-size: 18px;
+  }
+  
+  .agent-card {
+    background-color: #1e1e1e;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .agent-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+  }
+  
+  .agent-info {
+    text-align: left;
+  }
+  
+  .agent-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .agent-meta {
+    font-size: 14px;
+    color: #b0bec5;
+    margin-bottom: 16px;
+  }
+  
+  .agent-meta span {
+    display: block;
+  }
+  
+  .agent-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .share-button,
+  .more-button {
+    background-color: #2e7d32;
+    border: none;
+    color: #b0bec5;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .more-button {
+    background-color: #333;
+  }
+  
+  .talk-button-ele,
+  .call-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .talk-button-ele {
+    background-color: #232c5c;
+    color: #ffffff;
+  }
+  
+  .call-button {
+    background-color: #333;
+    color: #b0bec5;
+  }

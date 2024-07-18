@@ -15,7 +15,7 @@
   background: #1e1e1e;
   padding: 20px;
   border-radius: 10px;
-  width: 500px;
+  width: 700px;
   max-width: 80%;
   color: #b0b0b0;
   height:  50%;
@@ -143,6 +143,7 @@
 
 .detail-quick-start-container{
   display: flex;
+  flex-direction: column;
 }
 
 .quickstart-option h4 {
@@ -151,10 +152,10 @@
 
 .quickstart-option{
   cursor: pointer;
-  width: 187px;
+  width: 180px;
   height: 150px;
   overflow: auto;
-  margin-right: 20px;
+  margin-right: 0px;
   margin-bottom: 20px;
 }
 
@@ -176,4 +177,9 @@
 
 .active-assistant{
   background-color: #23afad35;
+}
+
+.detail-q-s-container{
+  display: flex;
+  justify-content: space-between;
 }

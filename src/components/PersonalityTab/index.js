@@ -1,4 +1,7 @@
 import React from 'react';
+import { RiLandscapeLine } from "react-icons/ri";
+
+
 import './index.css';
 
 const PersonalityTab = () => {
@@ -12,23 +15,15 @@ const PersonalityTab = () => {
                     <label>Name</label>
                     <input className='input-model' type="text" placeholder="Give Your AI a name..." />
                 </div>
-                <div className="input-group">
-                    <label>System Prompt</label>
-                    <textarea className='textarea-element' placeholder="This is a blank template with minimal defaults, you can change the model, temperature, and messages."></textarea>
-                </div>
                 <div className="avatar-container">
-      <div className="avatar-header">
-        <img src="path/to/avatar-icon.png" alt="avatar icon" className="avatar-icon" />
-        <h2 className="avatar-heading">AVATAR</h2>
-      </div>
-      <button className="upload-button">Upload Image</button>
-      <div className="avatar-options">
-        <img src="path/to/avatar1.png" alt="avatar 1" className="avatar-option" />
-        <img src="path/to/avatar2.png" alt="avatar 2" className="avatar-option" />
-        <img src="path/to/avatar3.png" alt="avatar 3" className="avatar-option" />
-        <img src="path/to/avatar4.png" alt="avatar 4" className="avatar-option" />
-      </div>
-    </div>
+                    <div className="avatar-header">
+                        <RiLandscapeLine className='avatar-image' />
+                        <h2 className="avatar-heading">AVATAR</h2>
+                    </div>
+                    <button className="upload-button">Upload Image</button>
+                    <div className="avatar-options">
+                    </div>
+                 </div>
             </div>
 
 
@@ -36,14 +31,40 @@ const PersonalityTab = () => {
                 <h2 className='behaviour-heading'>Behaviour</h2>
             </div>
             <div className="section-body">
-                <div className="input-group">
-                    <label>Name</label>
-                    <input className='input-model' type="text" placeholder="Give Your AI a name..." />
+                <div className="section">
+                    <h2 className="section-heading">AGENT GREETING</h2>
+                    <p className="section-description">
+                        Your agent will say this message to start every conversation.
+                    </p>
+                    <textarea className="greeting-input" placeholder="e.g. Hey! How may we be of assistance today?"></textarea>
                 </div>
+                <div className="section">
+                    <h2 className="section-heading">AGENT BEHAVIOR</h2>
+                    <div className="behavior-option">
+                        <h3 className="option-heading">Professional Use Case</h3>
+                        <p className="option-description">
+                            Configured to be more polite, formal, staying on task, and assisting.
+                        </p>
+                    </div>
+                    <div className="behavior-option">
+                        <h3 className="option-heading">Character Use Case</h3>
+                            <p className="option-description">
+                                 Configured to assume and impersonate identity.
+                            </p>
+                    </div>
+                    <div className="behavior-option">
+                        <h3 className="option-heading">Super Chatty</h3>
+                        <p className="option-description">
+                            For casual laid-back conversations, like you are talking to a friend.
+                        </p>
+                    </div>
+                 </div>
             </div>
         </div>
   );
 };
 
 export default PersonalityTab;
+
+
 
