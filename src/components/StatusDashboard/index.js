@@ -84,7 +84,7 @@ const onClickVoice = () => {
                 <span className="label">Cost</span>
                 <span className="value">$0.08 /min</span>
               </div>
-                  <ResponsiveContainer width="100%" height={180} className="pie-chart-container"> 
+                  <ResponsiveContainer width="100%" height={120} className="pie-chart-container"> 
                       <PieChart>
                       <Pie
                         cx="50%"
@@ -114,30 +114,30 @@ const onClickVoice = () => {
                 <span className="label">Latency</span>
                 <span className="value">700 ms</span>
               </div>
-              <ResponsiveContainer width="100%" height={180}>
-            <PieChart>
-            <Pie
-              cx="50%"
-              cy="50%"
-              data={dataOfPie}
-              startAngle={360}
-              endAngle={0}
-              innerRadius="30%"
-              outerRadius="70%"
-              dataKey="count"
-            >
-              <Cell name="Tota Fixed Cost" fill="#f54394" />
-              <Cell name="DeepGram" fill="#5a8dee" />
-              <Cell name="Others" fill="#2cc6c6" />
-            </Pie>
-            <Legend
-              iconType="circle"
-              layout="vertical"
-              verticalAlign="middle"
-              align="right"
-            />
-          </PieChart>
-          </ResponsiveContainer>
+                <ResponsiveContainer width="100%" height={120} className="pie-chart-container">
+                  <PieChart>
+                  <Pie
+                    cx="50%"
+                    cy="50%"
+                    data={dataOfPie}
+                    startAngle={360}
+                    endAngle={0}
+                    innerRadius="30%"
+                    outerRadius="70%"
+                    dataKey="count"
+                  >
+                    <Cell className='pie-name' name="Tota Fixed Cost" fill="#f54394"  />
+                    <Cell name="DeepGram" fill="#5a8dee" />
+                    <Cell name="Others" fill="#2cc6c6" />
+                  </Pie>
+                  <Legend
+                    iconType="circle"
+                    layout="vertical"
+                    verticalAlign="middle"
+                    align="right"
+                  />
+                </PieChart>
+            </ResponsiveContainer>
           </div>
         </div>
       </div>

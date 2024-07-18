@@ -58,12 +58,12 @@ clickProfile = () => {
         <Link className="nav-link" to="/overview">
           <li  className={`sidebar-item ${activeTabID==="Overview" ? "active hover" : ""}`}  onClick={this.clickOverview}>
             <FaChartPie />
-            <span>Overview</span>
+            <span className='side-item'>Overview</span>
            </li>
         </Link>
           <li className="sidebar-item" onClick={this.togglePlatform}>
             <FaTools />
-            <span>Platform</span>
+            <span className='side-item'>Platform</span>
             {isPlatformOpen ? <FaChevronUp /> : <FaChevronDown />}
           </li>
           {isPlatformOpen && (
@@ -71,32 +71,32 @@ clickProfile = () => {
               <Link className="nav-link" to="/assistants">
                 <li className={`sidebar-item ${activeTabID==="Assistants" ? "active hover" : ""}`} onClick={this.clickAssistants}>
                   <FaUser />
-                  <span>Assistants</span>
+                  <span className='side-item'>Assistants</span>
                 </li>
               </Link>
 
               <Link className="nav-link" to="/phone-number">
                 <li className={`sidebar-item ${activeTabID==="Phonenum" ? "active hover" : ""}`} onClick={this.clickPhonenumber}>
                   <FaPhone />
-                  <span>Phone Numbers</span>
+                  <span className='side-item'>Phone Numbers</span>
                 </li>
                </Link>
               <Link className="nav-link" to="/files">
                 <li className={`sidebar-item ${activeTabID==="Files" ? "active hover" : ""}`} onClick={this.clickFiles}>
                   <FaFile />
-                  <span>Files</span>
+                  <span className='side-item'>Files</span>
                 </li>
                </Link>
               <Link className="nav-link" to="/tools">
                 <li className={`sidebar-item ${activeTabID==="Tools" ? "active hover" : ""}`}onClick={this.clickTools}>
                   <FaTools />
-                  <span>Tools</span>
+                  <span className='side-item'>Tools</span>
                 </li>
                </Link>
               <Link className="nav-link" to="/squads">
                 <li className={`sidebar-item ${activeTabID==="Squads" ? "active hover" : ""}`} onClick={this.clickSquads}>
                   <FaUsers />
-                  <span>Team</span>
+                  <span className='side-item'>Team</span>
                 </li>
                </Link>
             </ul>
@@ -104,13 +104,13 @@ clickProfile = () => {
           <Link className="nav-link" to="/voice-library">
             <li className={`sidebar-item ${activeTabID==="VoiceLib" ? "active hover" : ""}`} onClick={this.clickVoiceLib}>
               <FaMusic />
-              <span>Voice Library</span>
+              <span className='side-item'>Voice Library</span>
             </li>
           </Link>
           <Link className="nav-link" to="/call-logs">
             <li className={`sidebar-item ${activeTabID==="CallLogs" ? "active hover" : ""}`} onClick={this.clickCalllogs}>
               <FaRegFileAlt />
-              <span>Call Logs</span>
+              <span className='side-item'>Call Logs</span>
             </li>
           </Link>
         </ul>

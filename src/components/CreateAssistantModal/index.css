@@ -18,7 +18,7 @@
   width: 700px;
   max-width: 80%;
   color: #b0b0b0;
-  height:  50%;
+  height:  60%;
   overflow: auto;
   padding-top: 10px;
 }
@@ -182,4 +182,11 @@
 .detail-q-s-container{
   display: flex;
   justify-content: space-between;
+}
+
+
+.cancel-button{
+  text-align: right;
+  background-color: transparent;
+  border: none;
 }

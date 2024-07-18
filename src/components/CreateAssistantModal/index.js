@@ -22,6 +22,14 @@ const CreateAssistantModal = ({ isOpen, onClose,onClickCreateAssistantButton }) 
     setActiveAssistant("game")
   }
 
+  const onClickEducation = () => {
+    setActiveAssistant("education")
+  }
+
+  const onClickEtc = () => {
+    setActiveAssistant("etc")
+  }
+
   const onClickCreateButton = () => {
     onClickCreateAssistantButton(activeAssistant,assistantName)
     setAssistantName('New Assistant')
@@ -34,16 +42,15 @@ const CreateAssistantModal = ({ isOpen, onClose,onClickCreateAssistantButton }) 
   return (
     <div className="modal-overlay">
       <div className="modal">
-        <div className="modal-header">
-          <h2 className='main-heading'>Create your Assistant</h2>
-          <button className="close-button" onClick={onClose}>&times;</button>
-        </div>
         <div className="modal-body">
+      
           <div className='chosse-a-template-container'>
+          
             <p className='choose-heading'>Choose a template</p>
             <p className='choose-para'>Here's a few templates to get you started, or you can create your own template and use it to create a new assistant.</p>
           </div>
-          <label className="label-assistant-name" htmlFor="assistant-name">Assistant Name <span className='span-element'>(This can be adjusted at any time after creation.)</span></label>
+
+          <label className="label-assistant-name" htmlFor="assistant-name">Assistant Name</label>
           <input
             id="assistant-name"
             className="input-create-assistant-model"
@@ -57,7 +64,7 @@ const CreateAssistantModal = ({ isOpen, onClose,onClickCreateAssistantButton }) 
               <p className='options-para' >This blank slate template with minimal configurations. It's a starting point for creating your custom assistant.</p>
             </div>
             <div className="quickstart-options">
-              <h3 className='quick-staet-heading'>QUICKSTART</h3>
+              <h3 className='quick-staet-heading'>Template</h3>
               <div className='detail-quick-start-container'>
                 <div className='detail-q-s-container'> 
                   <div className={`quickstart-option ${ activeAssistant==="appointmentSetter" && "active-assistant"}`} onClick={onClickAppointmentSetter}>
@@ -73,9 +80,16 @@ const CreateAssistantModal = ({ isOpen, onClose,onClickCreateAssistantButton }) 
                     <p className='options-para'>This is an inbound call agent designed to provide comprehensive support for SmartHome Innovations. With a deep understanding of product details and troubleshooting.</p>
                   </div>
                 </div>
-                <div>
-                 
+                <div className='detail-q-s-container'>
                   <div className={`quickstart-option ${ activeAssistant==="game" && "active-assistant"}`} onClick={onClickGame}>
+                    <h4 className='options-heading'>Game NPC</h4>
+                    <p className='options-para'>This is an assistant for demonstrating an in-game NPC, She is designed to offer guidance, lore, and insights into the mysteries of the natural world.</p>
+                  </div>
+                  <div className={`quickstart-option ${ activeAssistant==="education" && "active-assistant"}`} onClick={onClickEducation}>
+                    <h4 className='options-heading'>Education</h4>
+                    <p className='options-para'>This is an assistant for demonstrating an Education, She is designed to offer guidance, lore, and insights into the mysteries of the natural world.</p>
+                  </div>
+                  <div className={`quickstart-option ${ activeAssistant==="etc" && "active-assistant"}`} onClick={onClickEtc}>
                     <h4 className='options-heading'>Game NPC</h4>
                     <p className='options-para'>This is an assistant for demonstrating an in-game NPC, She is designed to offer guidance, lore, and insights into the mysteries of the natural world.</p>
                   </div>

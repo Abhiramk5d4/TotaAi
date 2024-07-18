@@ -8,7 +8,7 @@
 }
   
 .create-assistant-container {
-    width: 35%;
+    width: 30%;
     border-right: 0.5px solid #363638;
     margin-left: 0px;
     text-align: center;
@@ -91,7 +91,7 @@
 }
 
 .assistant-name{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .copy-link{

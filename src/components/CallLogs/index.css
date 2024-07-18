@@ -21,7 +21,7 @@
 }
 .create-assistant-container{
   height: 100%;
-  width: 38%;
+  width: 30%;
   border-right: 0.5px solid #363638;
   margin-left: 0px;
   text-align: center
@@ -30,12 +30,12 @@
 .button-assistant{
   width: 85%;
   margin-top: 20px;
-  height: 40px;
+  height: 36px;
   background-color: #212328;
   border: 0.5px solid #363638;
   border-radius: 10px;
   color: #b0b0b0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 

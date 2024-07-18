@@ -54,12 +54,19 @@
   .metrics {
     width: 100%;
     margin-left: 10px;
+    display: flex;
+    background-color: #080808;
+    height: 168px;
+    padding: 10px;
+    border-radius: 10px;
   }
   
   .metric {
     flex: 1;
     margin: 0 10px;
     margin-bottom: 30px;
+    margin-top: 20px;
+
   }
 
   .metric-scale{
@@ -106,7 +113,8 @@
     padding-bottom: 0px;
     padding-right: 0px;
     border-radius: 10px;
-    height: 430px;
+    height: 100%;
+    display: flex;
   }
   .tabs-detail-container{
     display: flex;
@@ -122,7 +130,6 @@
     margin-bottom: 20px;
     margin-right: 20px;
     background-color: #232425;
-    margin-top: 14px;
     font-weight: 600;
   }
   
@@ -133,4 +140,5 @@
 
 
   .pie-chart-container{
+    padding: 0px;
   }
