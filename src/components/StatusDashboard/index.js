@@ -82,18 +82,19 @@ const onClickVoice = () => {
           <div className="metric">
               <div className='metric-scale'> 
                 <span className="label">Cost</span>
-                <span className="value">$0.08 /min</span>
+                <span className="value">Rs.2 / min</span>
               </div>
-                  <ResponsiveContainer width="100%" height={120} className="pie-chart-container"> 
+              <div className='pie-chart-wrapper'>
+                  <ResponsiveContainer width="100%" height={138} className="pie-chart-container"> 
                       <PieChart>
                       <Pie
                         cx="50%"
                         cy="50%"
                         data={dataOfPie}
-                        startAngle={360}
-                        endAngle={0}
+                        startAngle={0}
+                        endAngle={360}
                         innerRadius="30%"
-                        outerRadius="70%"
+                        outerRadius="80%"
                         dataKey="count"
                       >
                         <Cell name="Tota Fixed Cost" fill="#f54394" />
@@ -108,22 +109,24 @@ const onClickVoice = () => {
                       />
                     </PieChart>
               </ResponsiveContainer>
+            </div>
           </div>
           <div className="metric">
               <div className='metric-scale'>
                 <span className="label">Latency</span>
                 <span className="value">700 ms</span>
               </div>
-                <ResponsiveContainer width="100%" height={120} className="pie-chart-container">
+              <div className='pie-chart-wrapper'>
+                <ResponsiveContainer width="100%" height={138} className="pie-chart-container">
                   <PieChart>
                   <Pie
                     cx="50%"
                     cy="50%"
                     data={dataOfPie}
-                    startAngle={360}
-                    endAngle={0}
+                    startAngle={0}
+                    endAngle={360}
                     innerRadius="30%"
-                    outerRadius="70%"
+                    outerRadius="80%"
                     dataKey="count"
                   >
                     <Cell className='pie-name' name="Tota Fixed Cost" fill="#f54394"  />
@@ -138,6 +141,7 @@ const onClickVoice = () => {
                   />
                 </PieChart>
             </ResponsiveContainer>
+            </div>
           </div>
         </div>
       </div>
@@ -166,7 +170,4 @@ const onClickVoice = () => {
 }
 
 export default StatusDashboard;
-
-
-
 

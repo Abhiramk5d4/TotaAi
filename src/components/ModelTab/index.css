@@ -4,6 +4,7 @@
     padding: 20px;
     border-radius: 10px;
     overflow: auto;
+    margin-top: 0px;
   }
   
   .section-header {
@@ -11,7 +12,7 @@
   }
 
   .model-heading{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: aliceblue;
@@ -32,7 +33,7 @@
   }
   
   .section-body {
-    margin-top: 20px;
+    margin-top: 0px;
     background-color: #171717;
     padding: 20px;
     border-radius: 10px;
@@ -40,8 +41,10 @@
   
   
   .input-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
+
+
   
   .input-model{
     width: 96%;
@@ -51,7 +54,7 @@
     color: white;
     background-color: #0d0c0c;
     outline: none;
-
+    margin-top: 5px;
   } 
   
   select {
@@ -78,4 +81,11 @@
   textarea {
     resize: none;
     height: 100px;
+  }
+
+
+  .model-label {
+      font-size: 14px;
+      margin-bottom: 6px;
+      margin-top: 0px;
   }

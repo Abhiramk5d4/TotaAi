@@ -15,12 +15,15 @@
   background: #1e1e1e;
   padding: 20px;
   border-radius: 10px;
-  width: 700px;
-  max-width: 80%;
+  width: 600px;
+  max-width: 90%;
   color: #b0b0b0;
-  height:  60%;
+  height:  75%;
   overflow: auto;
   padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-header {
@@ -28,36 +31,30 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #363638;
-  padding-bottom: 10px;
 }
 
 .main-heading{
   color: aliceblue;
 }
 
-.close-button {
-  background: none;
-  border: none;
-  color: #b0b0b0;
-  font-size: 20px;
-  cursor: pointer;
-}
+
 
 .modal-body {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 
 .chosse-a-template-container{
   border-bottom: 1px solid #363638;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
 }
 
 .choose-heading{
-  font-size: 20px;
+  font-size: 17px;
   color: aliceblue;
   font-weight: 600;
+  margin-top: 0px;
 }
 
 .choose-para{
@@ -66,9 +63,9 @@
 
 .label-assistant-name {
   display: block;
-  margin: 22px 0 14px;
-  font-size: 18px;
+  font-size: 13px;
   color: aliceblue;
+  margin-bottom: 5px;
   
 }
 
@@ -79,11 +76,10 @@
 
 .input-create-assistant-model {
   width: 96%;
-  height: 30px;
-  font-size: 16px;
+  height: 22px;
+  font-size: 12px;
   padding: 10px;
   color: aliceblue;
-  margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #363638;
   background-color: #131314;
@@ -91,7 +87,7 @@
 }
 
 .template-options {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .template-option {
@@ -106,7 +102,7 @@
 
 
 .options-heading{
-  font-size: 17px;
+  font-size: 15px;
   color: aliceblue;
   font-weight: 500;
   margin-top: 0px;
@@ -114,7 +110,7 @@
 
 .options-para{
   margin-bottom: 0px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .quickstart-option {
@@ -127,8 +123,9 @@
 
 
 .quick-staet-heading{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 0px;
+  font-size: 16px;
 }
 
 
@@ -152,8 +149,8 @@
 
 .quickstart-option{
   cursor: pointer;
-  width: 180px;
-  height: 150px;
+  width: 140px;
+  height: 120px;
   overflow: auto;
   margin-right: 0px;
   margin-bottom: 20px;
@@ -165,13 +162,13 @@
 }
 
 .create-ass-button{
-  height: 38px;
-  width: 140px;
-  font-size: 14px;
+  height: 32px;
+  width: 120px;
+  font-size: 12px;
   font-weight: 600;
   background-color: #23afad;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   color: aliceblue;
 }
 

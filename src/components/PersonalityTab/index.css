@@ -1,5 +1,5 @@
 .avatar-container {
-    padding: 16px;
+    padding: 10px 20px;
     max-width: 600px;
     margin: 0 auto;
     background-color: #0d0c0c;
@@ -7,13 +7,24 @@
     color: #b0bec5;
     font-family: Arial, sans-serif;
   }
-  
   .avatar-header {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
   }
   
+
+  .identity-heading{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+
+  .label-peroson-element{
+    font-size: 14px;
+  }
+
   .avatar-icon {
     width: 24px;
     height: 24px;
@@ -21,32 +32,37 @@
   }
   
   .avatar-heading {
-    font-size: 18px;
+    font-size: 12px;
     color: #fff;
   }
-  
-  .upload-button {
+
+  .upload-button-image {
     display: block;
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    color: #b0bec5;
-    background-color: #388e3c;
+    padding: 8px;
+    font-size: 14px;
+    color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    text-align: left;
     text-align: center;
-    margin-bottom: 16px;
+    background-color: transparent;
+    border: 1px solid #90a4ae;
+    margin-bottom: 10px;
   }
   
-  .upload-button:hover {
-    background-color: #2e7d32;
+  .upload-button-image:hover {
+    background-color: #1f201f;
   }
+  
   .avatar-image{
     color: #0d0c0c;
-    font-size: 24px;
+    font-size: 18px;
+    height: 14px;
+    width: 16px;
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-right: 5px;
   }
   .avatar-options {
@@ -70,9 +86,9 @@
 
 
   .behaviour-heading{
-    font-size: 20px;
+    font-size: 16px;
         margin-top: 20px;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         color: aliceblue;
   }
 
@@ -93,8 +109,8 @@
     margin-bottom: 24px;
   }
   
-  .section-heading {
-    font-size: 18px;
+  .section-agent-heading {
+    font-size: 14px;
     color: #fff;
     margin-bottom: 8px;
   }
@@ -104,8 +120,8 @@
     margin-bottom: 12px;
   }
   
-  .greeting-input {
-    width: 100%;
+  .greeting-agent-input {
+    width: 96%;
     padding: 12px;
     font-size: 16px;
     color: #b0bec5;
@@ -135,16 +151,23 @@
   }
   
   .option-heading {
-    font-size: 16px;
+    font-size: 14px;
     color: #64b5f6;
     margin-bottom: 4px;
   }
   
   .option-description {
-    font-size: 14px;
+    font-size: 13px;
     color: #b0bec5;
   }
 
   .section-heading{
     font-size: 20px;
+  }
+
+  .section-peroson-body {
+    margin-top: 0px;
+    background-color: #171717;
+    padding: 10px;
+    border-radius: 10px;
   }

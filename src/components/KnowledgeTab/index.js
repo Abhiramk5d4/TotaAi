@@ -5,7 +5,7 @@ const KnowledgeTab = () => {
   return (
     <div className="model-section">
       <div className="section">
-        <h2 className="section-heading">AGENT PROMPT</h2>
+        <h2 className="section-know-heading">Agent Prompt</h2>
         <p className="section-description">
           Give instructions to your AI about how it should behave and interact with others in conversation.
         </p>
@@ -13,7 +13,7 @@ const KnowledgeTab = () => {
       </div>
 
       <div className="section">
-        <h2 className="section-heading">CUSTOM KNOWLEDGE</h2>
+        <h2 className="section-know-heading">Custom Knowledge</h2>
         <p className="section-description">
           Add your custom knowledge to your agent.
         </p>
@@ -26,7 +26,7 @@ const KnowledgeTab = () => {
         </p>
       </div>
       <div className="guardrails-section">
-        <h2 className="section-heading">GUARDRAILS</h2>
+        <h2 className="section-know-heading">Guardrails</h2>
         <p className="section-description">
           Force the agent to reply using only content from the knowledge base instead of general knowledge?
         </p>

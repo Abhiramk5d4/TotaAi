@@ -8,11 +8,11 @@ const PersonalityTab = () => {
   return (
         <div className="model-section">
             <div className="section-header">
-                <h2 className='model-heading'>Identity</h2>
+                <h2 className='identity-heading'>Identity</h2>
             </div>
-            <div className="section-body">
+            <div className="section-peroson-body">
                 <div className="input-group">
-                    <label>Name</label>
+                    <label className='label-peroson-element'>Name</label>
                     <input className='input-model' type="text" placeholder="Give Your AI a name..." />
                 </div>
                 <div className="avatar-container">
@@ -20,7 +20,7 @@ const PersonalityTab = () => {
                         <RiLandscapeLine className='avatar-image' />
                         <h2 className="avatar-heading">AVATAR</h2>
                     </div>
-                    <button className="upload-button">Upload Image</button>
+                    <button className="upload-button-image">Upload Image</button>
                     <div className="avatar-options">
                     </div>
                  </div>
@@ -32,14 +32,14 @@ const PersonalityTab = () => {
             </div>
             <div className="section-body">
                 <div className="section">
-                    <h2 className="section-heading">AGENT GREETING</h2>
+                    <h2 className="section-agent-heading">Agent Greeting</h2>
                     <p className="section-description">
                         Your agent will say this message to start every conversation.
                     </p>
-                    <textarea className="greeting-input" placeholder="e.g. Hey! How may we be of assistance today?"></textarea>
+                    <textarea className="greeting-agent-input" placeholder="e.g. Hey! How may we be of assistance today?"></textarea>
                 </div>
                 <div className="section">
-                    <h2 className="section-heading">AGENT BEHAVIOR</h2>
+                    <h2 className="section-agent-heading">Agent Behaviour</h2>
                     <div className="behavior-option">
                         <h3 className="option-heading">Professional Use Case</h3>
                         <p className="option-description">
