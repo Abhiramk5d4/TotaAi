@@ -52,10 +52,16 @@
     padding-left: 20px;
   }
   
-  .sidebar-profile,
-  .sidebar-email {
+  .sidebar-profile {
     margin-top: auto;
     padding: 10px;
+  }
+
+
+  .sidebar-email{ 
+    margin-top: auto;
+    padding: 0px;
+
   }
   
   .sidebar-email {
@@ -72,7 +78,7 @@
   .profile-sidebar{
     margin-bottom: 10px;
     display: flex;
-    padding: 8px 15px;
+    padding: 8px 5px;
     align-items: center;
     border-radius: 8px;
   }

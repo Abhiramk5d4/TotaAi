@@ -6,8 +6,9 @@
     border-radius: 8px;
     color: #b0bec5;
     font-family: Arial, sans-serif;
-  }
-  .avatar-header {
+}
+
+.avatar-header {
     display: flex;
     align-items: center;
     margin-bottom: 10px;

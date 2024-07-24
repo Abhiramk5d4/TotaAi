@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import React, {Component} from 'react';
 import { FaChartPie, FaUser, FaPhone, FaFile, FaTools, FaUsers, FaMusic, FaRegFileAlt, FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { IoSettings } from "react-icons/io5";
 import './index.css';
 
 
@@ -46,6 +47,9 @@ clickCalllogs = () => {
 
 clickProfile = () => {
   this.setState({activeTabID : "Account"})
+}
+clickSettings = () => {
+  this.setState({activeTabID : "Settings"})
 }
 
 
@@ -121,9 +125,9 @@ clickProfile = () => {
             <span className="span-profile">Profile</span>
           </div>
           </Link>
-          <div className="profile-sidebar" >
-            <FaUser className='profile-icon-image' />
-            <span className="span-profile">abhiramkolli6@gmail.com</span>
+          <div className={`profile-sidebar ${activeTabID==="Settings" ? "active hover" : ""}`} onClick={this.clickSettings} >
+            <IoSettings className='profile-icon-image' />
+            <span className="span-profile">Settings</span>
           </div>
         </div>
       </div>

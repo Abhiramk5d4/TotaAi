@@ -26,7 +26,6 @@ const PersonalityTab = () => {
                  </div>
             </div>
 
-
             <div className="section-header">
                 <h2 className='behaviour-heading'>Behaviour</h2>
             </div>
