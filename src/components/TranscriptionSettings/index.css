@@ -1,0 +1,44 @@
+.transcription-settings {
+    background-color: #0d0c0c;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 0px;
+
+  }
+  
+  .transcription-settings h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .transcription-settings p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .settings-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .setting {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .setting label {
+    margin-bottom: 5px;
+    color: #ffffff;
+  }
+  
+  .setting select {
+    padding: 10px;
+    background-color: #242222;
+    border: 1px solid #353434;
+    border-radius: 4px;
+    color: #ffffff;
+  }

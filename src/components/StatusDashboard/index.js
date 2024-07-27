@@ -4,6 +4,8 @@ import  { useEffect,useState } from 'react';
 import PersonalityTab from "../PersonalityTab"
 import KnowledgeTab from "../KnowledgeTab"
 import ModelTab from "../ModelTab"
+import Voices from "../Voices"
+import TranscriptionSettings from "../TranscriptionSettings"
 import CreateCallPopup from "../CreateCallPopup"
 import {PieChart, Pie, Legend, Cell, ResponsiveContainer} from 'recharts'
 import ActiveCallDetail from "../ActiveCallDetail";
@@ -355,10 +357,10 @@ const PleaseSetYourPublicKeyMessage = () => {
         activeTab === "model" && (<ModelTab />)
       }
       {
-        activeTab === "transcriber" && (<></>)
+        activeTab === "transcriber" && (<TranscriptionSettings />)
       }
       {
-        activeTab === "voice" && (<></>)
+        activeTab === "voice" && (<Voices />)
       }
       {
          showPublicKeyInvalidMessage ? <PleaseSetYourPublicKeyMessage /> : null
@@ -369,5 +371,3 @@ const PleaseSetYourPublicKeyMessage = () => {
 }
 
 export default StatusDashboard;
-
-
